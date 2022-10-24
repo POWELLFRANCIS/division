@@ -1,3 +1,3 @@
-a, b = 7, 3
-result = a//b
-print(result)
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+print("a / b = ", round(a / b, 2))
